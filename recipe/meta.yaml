@@ -1,4 +1,4 @@
-{% set version = '1.2.1' %}
+{% set version = "1.2.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/leaflegend_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/leaflegend/leaflegend_{{ version }}.tar.gz
-  sha256: 625664d4e1933d0669cb0d700bb8c1948f377c7ceb3fc79fc74a1533366006d2
+  sha256: 6902a7aa9df4bbea7026225171e71105f1c8aac2ff43a0fcc42c03713cd505de
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -47,9 +47,7 @@ test:
 about:
   home: https://leaflegend.delveds.com, https://github.com/tomroh/leaflegend
   license: MIT
-  summary: Provides extensions to the 'leaflet' package to customize legends with images, text
-    styling, orientation, sizing, and symbology and functions to create symbols to plot
-    on maps.
+  summary: Provides extensions to the 'leaflet' package to customize legends with images, text styling, orientation, sizing, and symbology and functions to create symbols to plot on maps.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
