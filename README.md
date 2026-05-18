@@ -3,11 +3,13 @@ About r-leaflegend-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-leaflegend-feedstock/blob/main/LICENSE.txt)
 
-Home: https://leaflegend.delveds.com, https://github.com/tomroh/leaflegend
+Home: https://leaflegend.delveds.com
 
 Package license: MIT
 
 Summary: Provides extensions to the 'leaflet' package to customize legends with images, text styling, orientation, sizing, and symbology and functions to create symbols to plot on maps.
+
+Development: https://github.com/tomroh/leaflegend
 
 Current build status
 ====================
