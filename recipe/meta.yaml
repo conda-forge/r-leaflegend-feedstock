@@ -45,7 +45,8 @@ test:
     - "\"%R%\" -e \"library('leaflegend')\""  # [win]
 
 about:
-  home: https://leaflegend.delveds.com, https://github.com/tomroh/leaflegend
+  home: https://leaflegend.delveds.com
+  dev_url: https://github.com/tomroh/leaflegend
   license: MIT
   summary: Provides extensions to the 'leaflet' package to customize legends with images, text styling, orientation, sizing, and symbology and functions to create symbols to plot on maps.
   license_family: MIT
